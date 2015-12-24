@@ -22,12 +22,12 @@ function CoreLayout ({ children }) {
           </Navbar.Brand>
         </Navbar.Header>
         <Nav pullRight>
-          <NavDropdown eventKey={3} title='Dropdown' id='basic-nav-dropdown'>
-            <MenuItem eventKey={3.1}>Action</MenuItem>
-            <MenuItem eventKey={3.2}>Another action</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+          <NavDropdown eventKey={3} title='Lukasz Madon' id='basic-nav-dropdown'>
+            <MenuItem eventKey={3.1}>Admin</MenuItem>
+            <MenuItem eventKey={3.2}>Your Profile</MenuItem>
+            <MenuItem eventKey={3.3}>History</MenuItem>
             <MenuItem divider />
-            <MenuItem eventKey={3.3}>Separated link</MenuItem>
+            <MenuItem eventKey={3.3}>Logout</MenuItem>
           </NavDropdown>
         </Nav>
       </Navbar>
@@ -36,10 +36,10 @@ function CoreLayout ({ children }) {
         <div className='text-center small'>
           <p>
             <strong>Powered by RolePoint Inc © 2015 |
-            <a href='http://www.rolepoint.com' target='_blank'>www.RolePoint.com</a>
-            | <a href='mailto:support@rolepoint.com'>Support</a>
-            | <a href='http://www.rolepoint.com/terms' target='_blank'>Terms of Use</a>
-            | <a href='http://www.rolepoint.com/privacy' target='_blank'>Privacy Policy</a>
+            <a href='http://www.rolepoint.com' target='_blank'> www.RolePoint.com </a>
+            |<a href='mailto:support@rolepoint.com'> Support </a>
+            |<a href='http://www.rolepoint.com/terms' target='_blank'> Terms of Use </a>
+            |<a href='http://www.rolepoint.com/privacy' target='_blank'> Privacy Policy </a>
             </strong>
           </p>
         </div>

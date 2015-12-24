@@ -13,6 +13,7 @@ import styles from './HomeView.scss'
 // export the decorated component after the main class definition so
 // the component can be tested w/ and w/o being connected.
 // See: http://rackt.github.io/redux/docs/recipes/WritingTests.html
+// and need to add babel plugin
 const mapStateToProps = (state) => ({
   counter: state.counter
 })
